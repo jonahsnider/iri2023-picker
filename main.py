@@ -93,6 +93,4 @@ predictions = model.predict(epa2023)
 # Print results
 print("Predictions:")
 for i in range(len(predictions)):
-    print(
-        f"{epa2023.index[i]}: {predictions[i][0]:.2f} points"
-    )
+    print(f"{epa2023.index[i]}: {predictions[i][0]:.2f} points")
